@@ -48,11 +48,7 @@
         <activity
             android:name=".DozeSettingsActivity"
             android:label="@string/ambient_display_title"
-            android:theme="@style/Theme.Main">
-            <intent-filter>
-                <action android:name="org.lineageos.settings.device.DOZE_SETTINGS" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
+            android:theme="@android:style/Theme.DeviceDefault.Settings">
         </activity>
 
     </application>

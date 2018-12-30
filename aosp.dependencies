@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "vendor_yu",
+    "target_path": "vendor/yu"
+  },
+  {
+    "repository": "kernel_cyanogen_msm8916",
+    "target_path": "kernel/cyanogen/msm8916"
+  },
+  {
+    "repository": "krasCGQ/aarch64-linux-android",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-opt-linux-android",
+    "branch": "opt-gnu-8.x",
+    "remote": "github"
+  }
+]
+
