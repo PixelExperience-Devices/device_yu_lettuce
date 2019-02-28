@@ -25,7 +25,7 @@ TARGET_BOOT_ANIMATION_RES := 720
 TARGET_USE_OLD_SOUND_PICKER := true
 TARGET_GAPPS_ARCH := arm64
 CUSTOM_BUILD_TYPE := OFFICIAL
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lettuce

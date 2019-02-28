@@ -205,8 +205,8 @@ TARGET_USE_SDCLANG := false
 SDCLANG := false
 
 # SELinux
-include device/qcom/sepolicy-legacy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+#include device/qcom/sepolicy-legacy/sepolicy.mk
+#BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Shims
 TARGET_LD_SHIM_LIBS := \
@@ -217,6 +217,9 @@ TARGET_LD_SHIM_LIBS := \
 
 # Shipping API level (L-MR1)
 PRODUCT_SHIPPING_API_LEVEL := 22
+
+# Telephony
+TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Wi-Fi
 BOARD_HAS_QCOM_WLAN := true
